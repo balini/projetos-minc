@@ -66,7 +66,7 @@ class Card extends React.Component {
             const empresaNome = res.data.proponente;
             this.setState({ empresaNome})
 
-            const porcentagem = res.data.valor_captado/res.data.valor_aprovado;
+            const porcentagem = (res.data.valor_captado/res.data.valor_aprovado)*100;
             this.setState({ porcentagem})
     
     
