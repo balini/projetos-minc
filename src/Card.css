@@ -1,0 +1,284 @@
+body {
+    background-color:rgb(250, 250, 250);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 20px auto 20px auto;
+  }
+  
+  .card {
+    border-radius: 30px;
+    background-color:rgb(255, 255, 255);
+    padding: 5px;
+  }
+
+  .alinha {
+    text-align: center;
+    padding: 5px;
+  }
+
+  .borda {
+    border: 4px solid rgb(250, 250, 250);
+    border-radius: 36px;
+  }
+  
+  .sub-card {
+    background-color: rgb(250, 250, 250);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  
+  }
+
+  .projetos-culturais {
+    font-size: 32px;
+    font-weight: bold;
+    color:rgb(93, 133, 152);
+  }
+
+  .numero-pronac {
+    font-size: 20px;
+    color:rgb(93, 133, 152);
+  }
+
+  .botao-projetos {
+      border: 2px solid white;
+      border-radius: 10px;
+      padding: 12px;
+      color: rgb(93, 133, 152);
+      font-weight: bold;
+      background-color: rgb(230, 240, 245);
+      transition: background-color 0.5s ease;
+
+  }
+
+  .botao-projetos:hover {
+    cursor: pointer;
+    background-color: rgb(203, 229, 176);
+    color: whitesmoke;
+  }
+  
+  /*Titulo*/
+  
+  .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .titulo-texto {
+    font-size: 32px;
+    width: 60%;
+    color: rgb(93, 133, 152);
+    line-height: 30px;
+  }
+  
+  .titulo-img {
+    border: 1.5px solid rgb(206, 218, 224);
+    border-radius: 15px;
+    background-color: rgb(255, 253, 253);
+    width: 100%;
+    max-width: 3vw;
+    padding: 10px;
+    margin: 12px;
+  }
+  
+  /*Subtitulo*/
+  
+  .subtitulo-texto {
+    font-size: 20px;
+  }
+  
+  /*Tipo*/
+  
+  .tipo-texto {
+    line-height: 0px;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(101, 139, 157);
+  }
+  
+  /*Local-Lei*/
+  
+  .local-lei {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .local {
+    color:rgb(164, 190, 203);
+    
+  }
+
+  .sublocal {
+    color:rgb(164, 190, 203);
+    margin-right: auto;
+  }
+  
+  .lei {
+    background-color: rgb(203, 229, 176);
+    border-radius: 15px;
+    padding: 15px;
+    color: rgb(251, 253, 249);
+    font-size: 18px;
+  }
+  
+  /*Aprovado*/
+  
+  .aprovado {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(93, 133, 152);
+    background-color: rgb(212, 230, 239);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 3px solid rgb(250, 251, 252);
+  }
+  
+  .aprovado-texto {
+    margin-left: 20px;
+  }
+  
+  .aprovado-valor {
+    margin-right: 20px;
+  }
+  
+  /*Captado*/
+  
+  .captado {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(93, 133, 152);
+    background-color: rgb(212, 230, 239);
+    border-bottom: 3px solid rgb(250, 251, 252);
+  }
+  
+  .captado-texto {
+    margin-left: 20px;
+  }
+  
+  .captado-valor {
+    margin-right: 20px;
+  }
+  
+  /*Porcentagem*/
+  
+  
+  .porcentagem {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: rgb(149, 109, 177);
+    background-color: rgb(230, 216, 244);
+  }
+  
+  .porcentagem-valor {
+    margin-left: 20px;
+  }
+  
+  /*Empresa*/
+  
+  .empresa-texto {
+    font-size: 18px;
+    color:rgb(126, 161, 178);
+    line-height: 0;
+  }
+  
+  .empresa-itens {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .empresa-itens--nome {
+    background-color: rgb(204, 204, 204);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-weight: bold;
+  }
+  
+  .empresa-itens--todos {
+    border: 2px solid rgb(141, 178, 197);
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(168, 202, 218);
+    display: flex;
+    align-items: center;
+    transition: background-color 0.5s ease;
+  }
+
+  .empresa-itens--img {
+    width: 100%;
+    max-width: 2.5vw;
+    padding: 6px;
+  }
+
+  .empresa-itens--todos:hover{
+    cursor: pointer;
+    border: 2px solid rgb(169, 199, 137);
+    background-color: rgb(203, 229, 176);
+    color: white;
+  }
+  
+  /*Icones*/
+  
+  .icones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+  
+  .icones-img {
+    border: 1.5px solid rgb(206, 218, 224);
+    background-color:rgb(230, 240, 245);
+    border-radius: 6px;
+    width: 100%;
+    max-width: 5vw;
+    padding: 5px;
+    transition: background-color 0.5s ease;
+  }
+  
+  .icones-button {
+    border: 2px solid white;
+    border-radius: 10px;
+    color: rgb(93, 133, 152);
+    font-size: 26px;
+    font-weight: bold;
+    background-color: rgb(230, 240, 245);
+    height: 10vh;
+    padding: 20px;
+    transition: background-color 0.5s ease;
+  }
+
+  .icones-button:hover, .icones-img:hover {
+    cursor: pointer;
+    background-color: rgb(203, 229, 176);
+    color: white;
+  }
+
+  /*Creditos*/
+
+  .creditos {
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(93, 133, 152);
+  }
+
+  .creditos-link {
+    text-decoration: none;
+    color:rgb(93, 133, 152);
+  }
